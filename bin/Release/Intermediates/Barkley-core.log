@@ -1,0 +1,119 @@
+﻿Build started 8/26/2015 10:40:30 AM.
+     1>Project "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\Barkley-core.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\Intermediates\) contains files shared from another project (SandBox.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Isrc /Zi /nologo /W3 /WX- /sdl- /O2 /Ob2 /Oi /Ot /Oy- /GL /D BARKLEY_PLATFORM_WIN32 /D WIN32 /D _LIB /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D FT2_BUILD_LIBRARY /D _MBCS /Gm- /EHsc /MD /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\Intermediates\\" /Fd"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\audio\sound.cpp src\graphics\BatchRenderer2D.cpp src\graphics\buffers\Buffer.cpp src\graphics\buffers\IndexBuffer.cpp src\graphics\buffers\vertexarray.cpp src\graphics\font.cpp src\graphics\font_manager.cpp src\graphics\Framebuffer.cpp src\graphics\label.cpp src\graphics\layers\group.cpp src\graphics\layers\layer.cpp src\graphics\Mask.cpp src\graphics\MeshFactory.cpp src\graphics\shaders\ShaderFactory.cpp src\graphics\simple2Drenderer.cpp src\graphics\shaders\Shader.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp src\graphics\texture.cpp src\graphics\texture_manager.cpp src\graphics\window.cpp src\maths\mat4.cpp
+         sound.cpp
+         BatchRenderer2D.cpp
+     1>src\graphics\BatchRenderer2D.cpp(81): warning C4244: 'argument' : conversion from 'uint' to 'float', possible loss of data
+     1>src\graphics\BatchRenderer2D.cpp(84): warning C4244: 'argument' : conversion from 'uint' to 'float', possible loss of data
+         Buffer.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         IndexBuffer.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         vertexarray.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         font.cpp
+         font_manager.cpp
+         Framebuffer.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         label.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         group.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         layer.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         Mask.cpp
+         MeshFactory.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         ShaderFactory.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         simple2Drenderer.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         Shader.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         sprite.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         static_sprite.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         texture.cpp
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C2065: 'HANDLE' : undeclared identifier
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\barkleygl.h(18) : see reference to function template instantiation 'void barkley::internal::log_message<const char*,const char*,GLenum,const char*,const char*,const char*,const char*,const char*,int>(int,bool,const char *,const char *,GLenum,const char *,const char *,const char *,const char *,const char *,int)' being compiled
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C2146: syntax error : missing ';' before identifier 'hConsole'
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C2065: 'STD_OUTPUT_HANDLE' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C3861: 'GetStdHandle': identifier not found
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'BACKGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'BACKGROUND_INTENSITY' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'FOREGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'FOREGROUND_BLUE' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'FOREGROUND_GREEN' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'FOREGROUND_INTENSITY' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C3861: 'SetConsoleTextAttribute': identifier not found
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(186): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(186): error C2065: 'FOREGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(186): error C2065: 'FOREGROUND_INTENSITY' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(186): error C3861: 'SetConsoleTextAttribute': identifier not found
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C2065: 'FOREGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C2065: 'FOREGROUND_GREEN' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C2065: 'FOREGROUND_INTENSITY' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C3861: 'SetConsoleTextAttribute': identifier not found
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C2065: 'FOREGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C2065: 'FOREGROUND_BLUE' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C2065: 'FOREGROUND_GREEN' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C3861: 'SetConsoleTextAttribute': identifier not found
+         texture_manager.cpp
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C2065: 'HANDLE' : undeclared identifier
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\barkleygl.h(18) : see reference to function template instantiation 'void barkley::internal::log_message<const char*,const char*,GLenum,const char*,const char*,const char*,const char*,const char*,int>(int,bool,const char *,const char *,GLenum,const char *,const char *,const char *,const char *,const char *,int)' being compiled
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C2146: syntax error : missing ';' before identifier 'hConsole'
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C2065: 'STD_OUTPUT_HANDLE' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(179): error C3861: 'GetStdHandle': identifier not found
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'BACKGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'BACKGROUND_INTENSITY' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'FOREGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'FOREGROUND_BLUE' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'FOREGROUND_GREEN' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C2065: 'FOREGROUND_INTENSITY' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(183): error C3861: 'SetConsoleTextAttribute': identifier not found
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(186): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(186): error C2065: 'FOREGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(186): error C2065: 'FOREGROUND_INTENSITY' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(186): error C3861: 'SetConsoleTextAttribute': identifier not found
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C2065: 'FOREGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C2065: 'FOREGROUND_GREEN' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C2065: 'FOREGROUND_INTENSITY' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(189): error C3861: 'SetConsoleTextAttribute': identifier not found
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C2065: 'hConsole' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C2065: 'FOREGROUND_RED' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C2065: 'FOREGROUND_BLUE' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C2065: 'FOREGROUND_GREEN' : undeclared identifier
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\src\utils/log.h(194): error C3861: 'SetConsoleTextAttribute': identifier not found
+         Compiling...
+         window.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+         mat4.cpp
+     1>Done Building Project "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\Barkley-core.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:22.21

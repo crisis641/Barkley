@@ -1,0 +1,20 @@
+﻿Build started 8/26/2015 10:40:52 AM.
+     1>Project "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\SandBox\SandBox.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\Intermediates\) contains files shared from another project (Barkley-core.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\\Barkley-core\src" /Zi /nologo /W3 /WX- /sdl /O2 /Ob2 /Oi /Ot /Oy- /GL /D BARKLEY_PLATFORM_WIN32 /D WIN32 /D _LIB /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D FT2_BUILD_LIBRARY /D _MBCS /Gm- /EHsc /MD /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\Intermediates\\" /Fd"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Sandbox.cpp
+         Sandbox.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Dependencies\GLFW\include\GLFW\glfw3.h(85) : see previous definition of 'APIENTRY'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\SandBox.exe" /NOLOGO glfw3.lib glew32s.lib opengl32.lib FreeImage.lib OpenAL32.lib liborbis.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libogg.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\SandBox.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\SandBox.lib" /MACHINE:X86 /SAFESEH "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\Intermediates\Sandbox.obj"
+         "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\Barkley-core.lib"
+     1>MSVCRT.lib(cinitexe.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>Sandbox.obj : error LNK2001: unresolved external symbol "public: __thiscall barkley::graphics::BatchRenderer2D::BatchRenderer2D(struct barkley::maths::tvec2<unsigned int> const &)" (??0BatchRenderer2D@graphics@barkley@@QAE@ABU?$tvec2@I@maths@2@@Z)
+     1>Sandbox.obj : error LNK2001: unresolved external symbol "private: static enum barkley::graphics::TextureWrap barkley::graphics::Texture::s_WrapMode" (?s_WrapMode@Texture@graphics@barkley@@0W4TextureWrap@23@A)
+     1>C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Release\SandBox.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\SandBox\SandBox.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.41

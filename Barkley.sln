@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Barkley-core", "Barkley-core\Barkley-core.vcxproj", "{21692A4A-2710-4326-B3E2-C92622D3C922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A3D4516-919F-42E9-BECC-D43AF7AAB7AF}"
+	ProjectSection(SolutionItems) = preProject
+		Performance4.psess = Performance4.psess
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liborbis", "liborbis\liborbis.vcxproj", "{9A757652-78C4-4149-B067-813591EED207}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libogg", "libogg\libogg.vcxproj", "{3B302E1B-C8C1-46D7-8848-106E97651E3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SandBox", "SandBox\SandBox.vcxproj", "{A58191A2-F018-4864-9959-764FC6B4A4B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{E6F325CA-A258-4538-B2DB-8F19DCD90EE5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://crisis641.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Barkley-core\\Barkley-core.vcxproj
+		SccProjectName1 = Barkley-core
+		SccLocalPath1 = Barkley-core
+		SccProjectUniqueName2 = liborbis\\liborbis.vcxproj
+		SccProjectName2 = liborbis
+		SccLocalPath2 = liborbis
+		SccProjectUniqueName3 = libogg\\libogg.vcxproj
+		SccProjectName3 = libogg
+		SccLocalPath3 = libogg
+		SccProjectUniqueName4 = SandBox\\SandBox.vcxproj
+		SccProjectName4 = SandBox
+		SccLocalPath4 = SandBox
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Emscripten|Win32 = Emscripten|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21692A4A-2710-4326-B3E2-C92622D3C922}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21692A4A-2710-4326-B3E2-C92622D3C922}.Debug|Win32.Build.0 = Debug|Win32
+		{21692A4A-2710-4326-B3E2-C92622D3C922}.Emscripten|Win32.ActiveCfg = Emscripten|Win32
+		{21692A4A-2710-4326-B3E2-C92622D3C922}.Emscripten|Win32.Build.0 = Emscripten|Win32
+		{21692A4A-2710-4326-B3E2-C92622D3C922}.Release|Win32.ActiveCfg = Release|Win32
+		{21692A4A-2710-4326-B3E2-C92622D3C922}.Release|Win32.Build.0 = Release|Win32
+		{9A757652-78C4-4149-B067-813591EED207}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A757652-78C4-4149-B067-813591EED207}.Debug|Win32.Build.0 = Debug|Win32
+		{9A757652-78C4-4149-B067-813591EED207}.Emscripten|Win32.ActiveCfg = Release|Win32
+		{9A757652-78C4-4149-B067-813591EED207}.Release|Win32.ActiveCfg = Release|Win32
+		{9A757652-78C4-4149-B067-813591EED207}.Release|Win32.Build.0 = Release|Win32
+		{3B302E1B-C8C1-46D7-8848-106E97651E3B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B302E1B-C8C1-46D7-8848-106E97651E3B}.Debug|Win32.Build.0 = Debug|Win32
+		{3B302E1B-C8C1-46D7-8848-106E97651E3B}.Emscripten|Win32.ActiveCfg = Release|Win32
+		{3B302E1B-C8C1-46D7-8848-106E97651E3B}.Release|Win32.ActiveCfg = Release|Win32
+		{3B302E1B-C8C1-46D7-8848-106E97651E3B}.Release|Win32.Build.0 = Release|Win32
+		{A58191A2-F018-4864-9959-764FC6B4A4B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A58191A2-F018-4864-9959-764FC6B4A4B5}.Debug|Win32.Build.0 = Debug|Win32
+		{A58191A2-F018-4864-9959-764FC6B4A4B5}.Emscripten|Win32.ActiveCfg = Release|Win32
+		{A58191A2-F018-4864-9959-764FC6B4A4B5}.Emscripten|Win32.Build.0 = Release|Win32
+		{A58191A2-F018-4864-9959-764FC6B4A4B5}.Release|Win32.ActiveCfg = Release|Win32
+		{A58191A2-F018-4864-9959-764FC6B4A4B5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A757652-78C4-4149-B067-813591EED207} = {E6F325CA-A258-4538-B2DB-8F19DCD90EE5}
+		{3B302E1B-C8C1-46D7-8848-106E97651E3B} = {E6F325CA-A258-4538-B2DB-8F19DCD90EE5}
+	EndGlobalSection
+EndGlobal

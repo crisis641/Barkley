@@ -1,0 +1,302 @@
+﻿Build started 8/17/2015 1:19:59 PM.
+     1>Project "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\Barkley-core.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /O2 /Ob2 /Oi /Ot /Oy- /GL /D BARKLEY_EMSCRIPTEN /D WIN32 /D _LIB /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D FT2_BUILD_LIBRARY /D _MBCS /Gm- /EHsc /MD /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Emscripten\Intermediates\\" /Fd"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Emscripten\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt examples\game.cpp main.cpp src\audio\sound.cpp src\audio\sound_manager.cpp src\graphics\BatchRenderer2D.cpp src\graphics\buffers\Buffer.cpp src\graphics\buffers\vertexarray.cpp src\graphics\font.cpp src\graphics\font_manager.cpp src\graphics\label.cpp src\graphics\layers\group.cpp src\graphics\layers\layer.cpp src\graphics\simple2Drenderer.cpp src\graphics\shader.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp src\graphics\texture.cpp src\graphics\texture_manager.cpp src\graphics\window.cpp src\maths\mat4.cpp src\maths\vec2.cpp src\maths\vec3.cpp tilelayer.cpp
+         game.cpp
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34): error C2513: 'short' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_short'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(36): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(36): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(36): error C2513: 'int' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(36): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_int'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(37): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(37): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(37): error C2513: 'int' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(37): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_int'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(39): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(39): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(39): error C2513: 'float' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(39): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_float'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(40): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(40): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(40): error C2513: 'float' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(40): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_float'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(42): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(42): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(42): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(42): error C2146: syntax error : missing ';' before identifier 'emscripten_align4_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(43): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(43): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(43): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(43): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(44): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(44): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(44): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(44): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten\emscripten.h(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1298): warning C4005: 'M_PI' : macro redefinition
+                 c:\program files\emscripten\emscripten\1.34.1\system\include\sdl\SDL_stdinc.h(636) : see previous definition of 'M_PI'
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(52): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(53): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(54): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(55): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(26): error C2039: 'function' : is not a member of 'std'
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(26): error C2065: 'function' : undeclared identifier
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(26): error C2065: 'func' : undeclared identifier
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(26): error C2059: syntax error : ')'
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(27): error C2065: 'func' : undeclared identifier
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(97): error C2039: 'function' : is not a member of 'std'
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(97): error C2065: 'function' : undeclared identifier
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(97): error C2065: 'mainLoop' : undeclared identifier
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(128): error C2065: 'mainLoop' : undeclared identifier
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\examples\../src/barkley.h(128): error C3861: 'emscripten_set_main_loop_arg': identifier not found
+         main.cpp
+         sound.cpp
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C2513: 'short' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_short'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C2513: 'int' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_int'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C2513: 'int' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_int'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C2513: 'float' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_float'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C2513: 'float' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_float'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C2146: syntax error : missing ';' before identifier 'emscripten_align4_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         sound_manager.cpp
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C2513: 'short' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_short'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C2513: 'int' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_int'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C2513: 'int' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_int'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C2513: 'float' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_float'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C2513: 'float' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_float'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C2146: syntax error : missing ';' before identifier 'emscripten_align4_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>src\audio\sound_manager.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+         BatchRenderer2D.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(52): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(53): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(54): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(55): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>src\graphics\BatchRenderer2D.cpp(92): warning C4018: '<' : signed/unsigned mismatch
+     1>src\graphics\BatchRenderer2D.cpp(153): warning C4018: '<' : signed/unsigned mismatch
+     1>src\graphics\BatchRenderer2D.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+     1>src\graphics\BatchRenderer2D.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+         Buffer.cpp
+         vertexarray.cpp
+     1>src\graphics\buffers\vertexarray.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+         font.cpp
+     1>src\graphics\font.cpp(9): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         font_manager.cpp
+     1>src\graphics\font_manager.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+         label.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(52): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(53): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(54): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(55): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         group.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(52): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(53): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(54): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(55): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>src\graphics\layers\group.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+         layer.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(52): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(53): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(54): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(55): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>src\graphics\layers\layer.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+         simple2Drenderer.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(52): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(53): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(54): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(55): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         shader.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         sprite.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(52): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(53): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(54): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(55): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>src\graphics\sprite.cpp(6): warning C4244: 'argument' : conversion from 'unsigned int' to 'const float', possible loss of data
+     1>src\graphics\sprite.cpp(12): warning C4244: 'argument' : conversion from 'unsigned int' to 'const float', possible loss of data
+         static_sprite.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(52): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(53): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(54): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\renderable2d.h(55): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         texture.cpp
+         texture_manager.cpp
+     1>src\graphics\texture_manager.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+         window.cpp
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C2513: 'short' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_short'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C2513: 'int' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_int'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C2513: 'int' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_int'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C2513: 'float' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_float'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C2513: 'float' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_float'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C2146: syntax error : missing ';' before identifier 'emscripten_align4_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C2146: syntax error : missing ';' before identifier 'emscripten_align2_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C3861: 'aligned': identifier not found
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C2371: '__attribute__' : redefinition; different basic types
+                 C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(34) : see declaration of '__attribute__'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C2513: 'double' : no variable declared before '='
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C2146: syntax error : missing ';' before identifier 'emscripten_align1_double'
+     1>C:\Program Files\Emscripten\emscripten\1.34.1\system\include\emscripten/emscripten.h(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>src\graphics\window.cpp(75): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         mat4.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>src\maths\mat4.cpp(226): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Compiling...
+         vec2.cpp
+         vec3.cpp
+         tilelayer.cpp
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\maths\maths_func.h(16): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(52): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(53): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(54): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\mike\documents\visual studio 2013\projects\barkley\barkley-core\src\graphics\layers\../renderable2d.h(55): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>Done Building Project "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\Barkley-core\Barkley-core.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.71

@@ -1,0 +1,26 @@
+﻿Build started 8/26/2015 11:16:02 AM.
+     1>Project "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\SandBox\SandBox.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\Intermediates\) contains files shared from another project (Barkley-core.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\\Barkley-core\src" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D BARKLEY_DEBUG /D BARKLEY_PLATFORM_WIN32 /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\Intermediates\\" /Fd"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Sandbox.cpp
+         Sandbox.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\users\mike\documents\visual studio 2013\projects\barkley\dependencies\glfw\include\glfw\glfw3.h(85) : see previous definition of 'APIENTRY'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\SandBox.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib FreeImage.lib OpenAL32.lib liborbis.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libogg.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\SandBox.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\SandBox.lib" /MACHINE:X86 "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\Intermediates\Sandbox.obj"
+         "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\Barkley-core.lib"
+         liborbis.lib(vorbisfile.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>Sandbox.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\vc120.pdb'; linking object as if no debug info
+         SandBox.vcxproj -> C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\bin\Debug\SandBox.exe
+     1>Done Building Project "C:\Users\Mike\documents\visual studio 2013\Projects\Barkley\SandBox\SandBox.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.91
